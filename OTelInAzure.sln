@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{6114768D-E553-4278-86C1-E7A26EB951C3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "native", "native", "{996FC09A-68B1-4A25-835F-821BF96CE566}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OTelInAzure.Native.API", "src\native\OTelInAzure.Native.API\OTelInAzure.Native.API.csproj", "{EC186464-C0D7-41C2-BBCD-6690E9E84B27}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OTelInAzure.Core", "src\OTelInAzure.Core\OTelInAzure.Core.csproj", "{779FB257-F05A-44D3-916E-91519F54DF8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OTelInAzure.Native.Web", "src\native\OTelInAzure.Native.Web\OTelInAzure.Native.Web.csproj", "{06A0B099-B5DA-4FA5-B907-F501E0C8A4D2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC186464-C0D7-41C2-BBCD-6690E9E84B27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC186464-C0D7-41C2-BBCD-6690E9E84B27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC186464-C0D7-41C2-BBCD-6690E9E84B27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC186464-C0D7-41C2-BBCD-6690E9E84B27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{779FB257-F05A-44D3-916E-91519F54DF8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{779FB257-F05A-44D3-916E-91519F54DF8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{779FB257-F05A-44D3-916E-91519F54DF8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{779FB257-F05A-44D3-916E-91519F54DF8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06A0B099-B5DA-4FA5-B907-F501E0C8A4D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06A0B099-B5DA-4FA5-B907-F501E0C8A4D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06A0B099-B5DA-4FA5-B907-F501E0C8A4D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06A0B099-B5DA-4FA5-B907-F501E0C8A4D2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{996FC09A-68B1-4A25-835F-821BF96CE566} = {6114768D-E553-4278-86C1-E7A26EB951C3}
+		{EC186464-C0D7-41C2-BBCD-6690E9E84B27} = {996FC09A-68B1-4A25-835F-821BF96CE566}
+		{779FB257-F05A-44D3-916E-91519F54DF8B} = {6114768D-E553-4278-86C1-E7A26EB951C3}
+		{06A0B099-B5DA-4FA5-B907-F501E0C8A4D2} = {996FC09A-68B1-4A25-835F-821BF96CE566}
+	EndGlobalSection
+EndGlobal
